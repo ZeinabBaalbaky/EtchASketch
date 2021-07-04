@@ -9,8 +9,10 @@
   <header><h1>Etch-a-sketch</h1></header>
 
   <div class="flex">
-  <button type="button" onclick="ChangeSize()">Choose Size</button>
-   <button type="button" onclick="erase()">Clear Colors</button>
+  <div id="innerFlex">
+  <button type="button" class="innerFlexItem1" onclick="ChangeSize()">Choose Size</button>
+   <button type="button" class="innerFlexItem2"  onclick="erase()">Clear Colors</button>
+   </div>
   <div class="Grid" id="container">
   </div>
   </div>
